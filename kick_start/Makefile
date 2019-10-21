@@ -1,7 +1,7 @@
 CC := g++
 
 CFLAGS := -std=c++11
-INCLUDE := -I./include
+INCLUDE := -I../include
 
 SRC := $(wildcard *.cpp)
 targets := $(patsubst %.cpp,%.out,$(SRC))
